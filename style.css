@@ -1,0 +1,123 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+:root{
+    --main-color:rgb(63 187 192) ;
+    --secondary-color:rgb(247 252 252)  ; 
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Roboto", sans-serif; 
+}
+.nav1{
+    background-color: var(--main-color);
+}
+nav .main-btn
+{
+    background-color: var(--main-color);
+}
+nav .active{
+   color: var(--main-color) !important; 
+}
+/* ////// */
+.hero .hero-son{
+    background-color: rgba(255, 255, 255, 0.807);
+    border-color:var(--main-color) !important;
+}
+.hero a{
+    background-color: var(--main-color);
+}
+.carousel img{
+    height: 100vh !important; 
+}
+.dot{
+    width: 10px !important;
+    height: 10px !important;
+}
+.carousel-indicators .active{
+    background-color: var(--main-color) !important;
+}
+/* ////////////// */
+.main-c h2::after{
+    content: "";
+    width: 60px;
+    height: 2px;
+    background-color: var(--main-color);
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.main-c h5::after{
+    
+    content: "";
+    width: 60px;
+    height: 2px;
+    background-color: var(--main-color);
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* ///// */
+.serv .row i
+{
+    color: var(--main-color);
+    width: 40px !important; 
+    height: 40px !important;
+}
+/* /////// */
+.appo{
+    background-color: var(--secondary-color);
+}
+.appo a{
+    background-color: var(--main-color);
+}
+/* //////////////// */
+
+.dep .row{
+    text-align: start !important;
+}
+.dep .row .flex-column .active{
+    color: var(--main-color) !important;
+    background-color: transparent !important ; 
+    border-right:3px solid var(--main-color) ;
+    border-radius: 0;
+}
+
+.dep .row .tab-content .active{
+    color: black !important;
+}
+/* /////////// */
+.frq{
+    background-color: var(--secondary-color);
+}
+/* /////// */
+.con .bo span{
+    color: var(--main-color);
+}
+.con form .col , 
+.con form textarea
+{
+    border-color: gray;
+}
+.con form a{
+    background-color: var(--main-color);
+}
+.con .con-flex i{
+    color: var(--main-color);
+    border-color: var(--main-color) !important;
+    border: dotted !important;
+}
+/* ///////////// */
+footer{
+    background-color: var(--secondary-color);
+}
+footer .footer2 .spec {
+    color: var(--main-color);
+}
